@@ -1,6 +1,6 @@
 <?php
 // FMLite File Manager, Simple, clean file manager.
-$password = 'seczq'; // CHANGE THIS PASSWORD
+$password = 'your_password'; // CHANGE THIS PASSWORD
 
 session_start();
 if (isset($_GET['logout'])) { unset($_SESSION['logged']); header('Location: ?'); exit; }
